@@ -11,9 +11,9 @@ const answers = await inquirer.prompt([
 ]);
 
 if(answers.userGuessedNumber === "randomNumber"){
-    console.log("You are eligible");
+    console.log("Congratulations! you guessed right number.");
 }
 
 else{
-    console.log("You are not eligible");
+    console.log("you guessed wrong number");
 }
