@@ -10,7 +10,7 @@ const answers = await inquirer.prompt([
     },
 ]);
 
-if(answers.userGuessedNumber === "13"){
+if(answers.userGuessedNumber === "randomNumber"){
     console.log("You are eligible");
 }
 
